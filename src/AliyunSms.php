@@ -1,6 +1,6 @@
 <?php
 
-namespace Songshenzong\AliyunSms;
+namespace yejiancong\AliyunSms;
 
 use Aliyun\Api\Sms\Request\V20170525\QuerySendDetailsRequest;
 use Aliyun\Api\Sms\Request\V20170525\SendBatchSmsRequest;
@@ -16,7 +16,7 @@ Config::load();
 /**
  * Class AliyunSms
  *
- * @package Songshenzong\AliyunSms
+ * @package yejiancong\AliyunSms
  */
 class AliyunSms
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Songshenzong\AliyunSms;
+namespace yejiancong\AliyunSms;
 
 /**
  * Class ServiceProvider
  *
- * @package Songshenzong\AliyunSms
+ * @package yejiancong\AliyunSms
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Songshenzong\AliyunSms\Test;
+namespace yejiancong\AliyunSms\Test;
 
 use PHPUnit\Framework\TestCase;
-use Songshenzong\AliyunSms\AliyunSms;
+use yejiancong\AliyunSms\AliyunSms;
 use function getenv;
 
 /**
  * Class CredentialTest
  *
- * @package Songshenzong\AliyunSms\Test
+ * @package yejiancong\AliyunSms\Test
  */
 class CredentialTest extends TestCase
 {

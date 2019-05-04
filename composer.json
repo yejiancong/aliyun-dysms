@@ -1,5 +1,5 @@
 {
-  "name": "songshenzong/aliyun-dysms",
+  "name": "yejiancong/aliyun-dysms",
   "description": "a extension Aliyun SMS SDK",
   "keywords": [
     "aliyun",
@@ -9,20 +9,20 @@
     "Laravel"
   ],
   "support": {
-    "issues": "https://github.com/songshenzong/aliyun-dysms/issues",
-    "source": "https://github.com/songshenzong/aliyun-dysms"
+    "issues": "https://github.com/yejiancong/aliyun-dysms/issues",
+    "source": "https://github.com/yejiancong/aliyun-dysms"
   },
   "type": "library",
   "license": "Apache-2.0",
-  "homepage": "https://songshenzong.com",
+  "homepage": "https://yejiancong.com",
   "authors": [
     {
       "name": "Aliyuncs",
       "homepage": "https://www.aliyun.com"
     },
     {
-      "name": "Songshenzong",
-      "email": "i@songshenzong.com"
+      "name": "yejiancong",
+      "email": "yejiancong@me.com"
     }
   ],
   "require": {
@@ -35,15 +35,15 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Songshenzong\\AliyunSms\\": "src/",
-      "Songshenzong\\AliyunSms\\Test\\": "tests/",
+      "yejiancong\\AliyunSms\\": "src/",
+      "yejiancong\\AliyunSms\\Test\\": "tests/",
       "Aliyun\\": "aliyun-dysms-php-sdk/api_sdk/lib"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Songshenzong\\AliyunSms\\ServiceProvider"
+        "yejiancong\\AliyunSms\\ServiceProvider"
       ]
     }
   }

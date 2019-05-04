@@ -1,11 +1,11 @@
 <?php
 
-namespace Songshenzong\AliyunSms;
+namespace yejiancong\AliyunSms;
 
 /**
  * Class Facade
  *
- * @package Songshenzong\AliyunSms
+ * @package yejiancong\AliyunSms
  */
 class Facade extends \Illuminate\Support\Facades\Facade
 {

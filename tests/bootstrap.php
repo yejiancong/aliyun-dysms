@@ -8,7 +8,7 @@ if (!ini_get('date.timezone')) {
 }
 
 $loader = require dirname(__DIR__) . '/vendor/autoload.php';
-$loader->add('Songshenzong\\AliyunSms\\Test\\', __DIR__);
+$loader->add('yejiancong\\AliyunSms\\Test\\', __DIR__);
 if (file_exists('../../.env')) {
     $env = (new Dotenv\Dotenv(dirname(__DIR__)))->load();
 }

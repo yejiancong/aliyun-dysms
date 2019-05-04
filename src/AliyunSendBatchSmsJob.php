@@ -1,6 +1,6 @@
 <?php
 
-namespace Songshenzong\AliyunSms;
+namespace yejiancong\AliyunSms;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 /**
  * Class AliyunSendBatchSmsJob
  *
- * @package Songshenzong\AliyunSms
+ * @package yejiancong\AliyunSms
  */
 class AliyunSendBatchSmsJob implements ShouldQueue
 {

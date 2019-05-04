@@ -1,13 +1,13 @@
 <?php
 
-namespace Songshenzong\AliyunSms;
+namespace yejiancong\AliyunSms;
 
 use Illuminate\Notifications\Notification;
 
 /**
  * Class AliyunBatchSmsChannel
  *
- * @package Songshenzong\AliyunSms
+ * @package yejiancong\AliyunSms
  */
 class AliyunBatchSmsChannel
 {
