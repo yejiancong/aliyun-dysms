@@ -1,0 +1,19 @@
+language: php
+install: true
+php:
+  - 7.2
+before_script:
+  - curl --version
+  - composer self-update
+  - composer install --no-interaction --prefer-source --dev
+  - curl -sSfL -o ~/.phpenv/versions/hhvm/bin/phpunit https://phar.phpunit.de/phpunit-5.7.phar
+script: phpunit
+deploy:
+  provider: releases
+  api_key:
+    secure: ABQqDzbgF2uE0JvTWAF+Xoq7rtE/IgrR6WdCQVoRN15h7R/1xtE4HVKgmSdkBaU62T7OJPRSTeFMoNFbjankMdwwXdygRJnTnNQd1YgEJrLVl6l9yoLycAMN54rT+/CegsOKGzYU/LukrBCszfyj/0FPrwvput4iM0EEwCLdvoiLmiClA0NIEwyyG+3V/WW6jqq/J3BV+bxNetNJN6O2CvAVaTmPWb6qHgAHtdzy1xhAisyksI0HakdhQxk9etmxzbJ43qKfCiHXv7/ce0aWX3zhDkWtjjZU//3tforQxb8ME8bzUAqcB3IUKhBioaVoToLgv+hh0Qrog2WRi5/3PmouTOaVyFQFSf6y6CNhbcEjg+vWUBj9Y7SvIqKYBLPY8K061uzSwel/TnZ8HucJzGQz5PG0Cf/uRDzM87bRF/Xfu08fURSV0S9TRpr1fMIN2pETzS4C1kPud81pLfCQcHscLnGnz9CFPaKKATJN3Le+kVb3xKm4Z82my/fyQUZ+ONW+Nh046PQdATevH2UuKnOW7RNXcezWmcT/r1jD1sym8P5bffuu9na1F1syg1RuqFTATv1cS7xS9WXrCCjYQQeGU0nJlgrdDCb1k7yArqU/THS+iDpUumABXea4z/Gv5X+i6Mrtt2uqXK2/4G9K1KWc7S/IHwS/aXTEz8kIbGA=
+  file:
+    - "README.md"
+  on:
+    repo: songshenzong/aliyun-dysms
+    tags: true
