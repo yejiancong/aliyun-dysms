@@ -1,4 +1,4 @@
-[![Songshenzong](https://songshenzong.com/images/logo.png)](https://songshenzong.com)
+[![来源]](https://github.com/songshenzong)
 
 [![Build Status](https://travis-ci.org/songshenzong/aliyun-dysms.svg?branch=master)](https://travis-ci.org/songshenzong/aliyun-dysms)
 [![Total Downloads](https://poser.pugx.org/songshenzong/aliyun-dysms/d/total.svg)](https://packagist.org/packages/songshenzong/aliyun-dysms)
