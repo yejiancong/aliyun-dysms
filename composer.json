@@ -30,7 +30,7 @@
   },
   "require-dev": {
     "phpunit/phpunit": "~7.0",
-    "laravel/framework": "5.8.*"
+    "laravel/framework": "6.20.26"
   },
   "minimum-stability": "stable",
   "autoload": {
